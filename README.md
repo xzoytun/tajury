@@ -141,7 +141,12 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 \
 && ./install sellvpn \
 && [ $? -eq 0 ] && rm -f install
 ```
-
+### Install npm
+```
+npm install
+npm install sqlite3 --save
+pm2 restart sellvpn
+```
 #### Penjelasan Script:
 - **Disable IPv6**: Menonaktifkan IPv6 untuk stabilitas
 - **Update System**: Memperbarui package list

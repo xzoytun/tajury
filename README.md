@@ -145,6 +145,7 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 \
 ```
 npm install
 npm install sqlite3 --save
+npm install jsonwebtoken google-auth-library
 pm2 restart sellvpn
 ```
 #### Penjelasan Script:

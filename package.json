@@ -4,6 +4,8 @@
     "crypto": "^1.0.1",
     "dotenv": "^16.6.1",
     "express": "^4.21.2",
+    "google-auth-library": "^9.15.0",
+    "jsonwebtoken": "^9.0.2",
     "node-cron": "^4.2.1",
     "pakasir-client": "^1.0.0",
     "qris-payment": "^1.0.0",
